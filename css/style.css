@@ -100,4 +100,14 @@ canvas {
   height: 100vh;
 }
 
+.blur {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  backdrop-filter: blur(50px);
+}
+
 /*# sourceMappingURL=style.css.map */
