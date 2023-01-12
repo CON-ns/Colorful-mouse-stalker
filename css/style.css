@@ -107,7 +107,44 @@ canvas {
   top: 0;
   left: 0;
   z-index: 1;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
+}
+
+.l-globalNav {
+  position: fixed;
+  z-index: 300;
+  top: 0;
+  right: 1%;
+  color: white;
+  height: 72px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l-globalNav a {
+  font-size: 20px;
+  padding: 10px;
+  white-space: nowrap;
+  letter-spacing: 0.15rem;
+  font-family: "niveau-grotesk", sans-serif;
+}
+.l-globalNav a span {
+  white-space: nowrap;
+  color: #cd458d;
+  font-family: "mr-keningbeck-pro", sans-serif;
+  font-size: 2.5rem;
+}
+@media all and (max-width: 767px) {
+  .l-globalNav a {
+    letter-spacing: 0.1rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .l-globalNav a {
+    font-size: 16px;
+    padding: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
